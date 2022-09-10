@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="choose-div">
+        <div id="rock" class="weapon">
+          <h2>Камень</h2>
+        </div>
+        <div id="paper" class="weapon">
+          <h2>Бумага </h2>
+        </div>
+        <div id="scissors" class="weapon">
+          <h2>Ножницы</h2>
+        </div>
+      </div>
+      <div class="review">
+        <div class="youComputer">
+          <h2 class="center-chose">You: <br><span id="your-chose"></span></h2>
+          <h2 class="center-chose">Computer: <br> <span id="computer-chose"></span></h2>
+        </div>
+        <h2 class="result"><span class="result"></span></h2>
+        <div class="score">
+          <h2><span id="your-score" class="score-span">0</span> :
+          <span id="computer-score" class="score-span">0</span></h2>
+          <button class="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

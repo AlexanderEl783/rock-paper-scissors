@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  /* border: solid orange; */
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.choose-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.weapon {
+  width: 10rem;
+  height: 10rem;
+  border: solid green;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.youComputer {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+}
+
+.center-chose {
+width: 50%;
+min-width: 100px;
+text-align: center;
+}
+
+.result {
+  text-align: center;
+  margin-top: 2rem;
+  height: 40px;
+}
+
+.score-span{
+  font-size: 2rem;
+}
+
+.score {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.reset {
+  margin-top: 2rem;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.reset:hover {
+  background-color: gainsboro;
+}
+
