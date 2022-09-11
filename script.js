@@ -25,6 +25,9 @@ rockBtn.addEventListener('click', () => {
     yourChose.textContent = weapons[0];
     computerChose.textContent = weapons[randomWeapon()];
     calculate();
+    // yourChose.innerHTML = `<i id ="rock" class='far fa-hand-rock'></i>`;
+    icons();
+
 })
 
 scissorsBtn.addEventListener('click', () => {
@@ -35,6 +38,7 @@ scissorsBtn.addEventListener('click', () => {
 
 paperBtn.addEventListener('click', () => {
     yourChose.textContent = weapons[2];
+    weapons[2].innerHtml = `<i id="paper" class="fa-regular fa-hand"></i>`;
     computerChose.textContent = weapons[randomWeapon()];
     calculate();
 })
@@ -94,5 +98,22 @@ function calculate() {
     if (computerCounter > 0) {
         computerScore.style.color = 'red';
     }
+
+}
+
+function icons() {
+    if (yourChose.textContent = weapons[0]) {
+        return yourChose.innerHTML = `<i id ="rock" class='far fa-hand-rock'></i>`
+    }
+
+    else if (computerChose.textContent = 'Rock') {
+
+        return computerChose.innerHTML = `<i id ="rock" class='far fa-hand-rock'></i>`;
+    }
+
+
+    // weapons[0].innerHTML = `<i id ="rock" class='far fa-hand-rock'></i>`;
+    // weapons[1].innerHTML = `<i id="scissors" class="fa-regular fa-hand-scissors"></i>`;
+    // weapons[2].innerHTML = ` <i id="paper" class="fa-regular fa-hand"></i>`;
 
 }
