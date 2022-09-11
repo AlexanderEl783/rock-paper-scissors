@@ -2,7 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .container {
@@ -19,23 +27,37 @@
   padding: 2rem;
 }
 
+i {
+  font-size: 5rem;
+  color: rgb(183, 158, 15);
+  /* padding-top: 3rem; */
+}
+
+i:hover {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
 .weapon {
-  width: 10rem;
-  height: 10rem;
-  border: solid green;
+  width: 9rem;
+  height: 9rem;
+  border: 1px solid rgb(183, 158, 15);
   text-align: center;
-  padding-top: 3rem;
+  padding: 2rem;
+  /* padding-top: 3rem; */
 }
 
 .youComputer {
   display: flex;
   justify-content: space-around;
   height: 70px;
+
 }
 
 .center-chose {
 width: 50%;
 min-width: 100px;
+height: 10rem;
 text-align: center;
 }
 
@@ -60,9 +82,21 @@ text-align: center;
   height: 30px;
   border-radius: 5px;
   background-color: transparent;
+  cursor: pointer;
+  border: 1px solid rgb(183, 158, 15);
 }
 
 .reset:hover {
-  background-color: gainsboro;
+  color: rgb(183, 158, 15);
+  background-color: rgb(255, 246, 234);
+
+}
+
+.review {
+  border: 1px solid rgb(183, 158, 15);
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  box-shadow: 5px 10px 15px rgb(222, 222, 222);
 }
 
