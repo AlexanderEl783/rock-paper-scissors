@@ -1,2 +1,2 @@
 # rock-paper-scissors
-Test here
+Test here (deleted)
